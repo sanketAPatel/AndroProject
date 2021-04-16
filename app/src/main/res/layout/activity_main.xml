@@ -23,10 +23,19 @@
         android:id="@+id/descriptionET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="2dp"
+        android:layout_margin="5dp"
         android:background="@drawable/bg_edittext"
+        android:gravity="start"
         android:hint="Description"
-        android:inputType="text"
+
+        android:inputType="textMultiLine|textCapSentences"
+        android:minHeight="250dp"
         android:padding="10dp" />
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="save"
+               android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
